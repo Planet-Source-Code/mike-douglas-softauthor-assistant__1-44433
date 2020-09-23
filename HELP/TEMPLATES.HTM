@@ -1,0 +1,546 @@
+<HTML>
+<HEAD>
+<TITLE>SoftAuthor Help</TITLE>
+</HEAD>
+
+<BODY>
+<FONT SIZE=-1 FACE="arial">
+<H2>Editing Document Templates</H2>
+
+
+Document Templates are simply ASCII text files, editable in any text editor (such as notepad), with special "tags" that are replaced with data when the new document is generated.  
+<BR><BR>
+The tags all begin with "&#60;!--", have the tag name, and then end with "-->". A tag example would be &#60;!--NAME-->, anywhere "&#60;!--NAME-->" appeared in the template, it would be replaced with whatever value NAME held.
+<BR>
+
+<B>Example:</B>
+<TABLE BORDER=1 WIDTH=100%>
+<TR><TD WIDTH=50%>Contents of template file:</TD><TD WIDTH=50%>New file (based on template):</TD></TR>
+<TR><TD VALIGN="TOP"><FONT SIZE=-1 FACE="arial">
+Dear &#60;!--NAME-->,<BR>
+&#60;!--COMPANY-->, thanks you for your recent<BR>
+purchase of &#60;!--PRODUCT-->.<BR>
+<BR>
+Yours Truly,<BR>
+&#60;!--COMPANY_CONTACT--><BR></FONT>
+</TD><TD VALIGN="TOP"><FONT SIZE=-1 FACE="arial">
+Dear Joe Smith,<BR>
+Big Co., thanks you for your recent<BR>
+purchase of Super Widgets PRO.<BR>
+<BR>
+Yours Truly,<BR>
+Fred Jones<BR></FONT>
+</TD></TR>
+</TABLE>
+
+<BR>
+
+The included template files(in the TEMPLATE diretory) and their usage are as follows:
+<TABLE CELLSPACING=3 CELLPADDING=3 BORDER=0>
+  <TR>
+    <TD><B>EMAIL</B></TD>
+    <TD>Used to format message for e-mail based submission.</TD>
+  </TR>
+
+  <TR>
+    <TD><B>FILE_ID_DIZ</B></TD>
+    <TD>Used to generate FILE_ID.DIZ file.  Please note that FILE_ID.DIZ is a strict format, leaving very little room for information. Adding tags to this template could generate errors when generating the FILE_ID.DIZ file.</TD>
+  </TR>
+
+  <TR>
+    <TD><B>HTML</B></TD>
+    <TD>Used to generate INDEX.HTML file.  The generated file is intended to be used as a product homepage.  It is HIGHLY suggested this template be modified to reflet the look and feel of your own website.</TD>
+  </TR>
+
+  <TR>
+    <TD><B>PAD_FILE_HTM</B></TD>
+    <TD>An extremely informative web page designed more for mass information than for looks.  This page may be linked to for in-depth information regarding the software product.</TD>
+  </TR>
+
+  <TR>
+    <TD><B>PAD_FILE_XML</B></TD>
+    <TD>Used to generate PAD_FILE.XML file.  This XML file is a HIGHLY format dependant, industry standard file and as such should not be modified unless the user is extremely familiar with the content of this file..</TD>
+  </TR>
+
+  <TR>
+    <TD><B>PRESSRELEASE</B></TD>
+    <TD>Used to generate PRESSRELEAE.TXT file.  A textual press release for consumption of the news media.</TD>
+  </TR>
+
+  <TR>
+    <TD><B>README</B></TD>
+    <TD>Used to generate README.TXT file.  Intended as a first step document included in the software distribution.</TD>
+  </TR>
+
+</TABLE>
+
+<BR>
+
+The document tags available to SoftAuthor include:
+<TABLE CELLSPACING=3 CELLPADDING=3 BORDER=0>
+  <TR>
+    <TD>ADDRESS_1</TD>
+    <TD>First line of company address.</TD>
+  </TR>
+
+  <TR>
+    <TD>ADDRESS_2</TD>
+    <TD>Second line of company address.</TD>
+  </TR>
+
+  <TR>
+    <TD>ARTICLES</TD>
+    <TD>Text content of combined blurbs.</TD>
+  </TR>
+
+  <TR>
+    <TD>AUTHOR</TD>
+    <TD>Author <B>file</B> used with program.</TD>
+  </TR>
+
+  <TR>
+    <TD>AUTHOR_EMAIL</TD>
+    <TD>The program author's email address.</TD>
+  </TR>
+
+  <TR>
+    <TD>AUTHOR_F_NAME</TD>
+    <TD>The program author's first name.</TD>
+  </TR>
+
+  <TR>
+    <TD>AUTHOR_L_NAME</TD>
+    <TD>The program author's last name.</TD>
+  </TR>
+
+  <TR>
+    <TD>BLURBS</TD>
+    <TD>Comma delimited list of blurbs used for program.</TD>
+  </TR>
+
+  <TR>
+    <TD>CATEGORIES</TD>
+    <TD>Categories the author feels best fits the program. Comma delimitted.</TD>
+  </TR>
+
+  <TR>
+    <TD>CHANGE_INFO</TD>
+    <TD>What has changed since the last release.</TD>
+  </TR>
+
+  <TR>
+    <TD>CITY_TOWN</TD>
+    <TD>The city, town or village where the company resides.</TD>
+  </TR>
+
+  <TR>
+    <TD>COMPANY</TD>
+    <TD>Company <B>file</B> used with program.</TD>
+  </TR>
+
+  <TR>
+    <TD>COMPANY_ABOUT</TD>
+    <TD>A brief description of the company.</TD>
+  </TR>
+
+  <TR>
+    <TD>COMPANT_CONTACT</TD>
+    <TD>First and last name of company contact. </TD>
+  </TR>
+
+  <TR>
+    <TD>COMPANY_NAME</TD>
+    <TD>Contains company name, if the author does not have a company name they should have entered their own name under this field.</TD>
+  </TR>
+
+  <TR>
+    <TD>COMPANY_WEBSITE_URL</TD>
+    <TD>Should contain the basic URL to access the company's web site.</TD>
+  </TR>
+
+  <TR>
+    <TD>CONTACT_EMAIL</TD>
+    <TD>Email address of the person that should be used to contact the company regarding this product. </TD>
+  </TR>
+
+  <TR>
+    <TD>CONTACT_F_NAME</TD>
+    <TD>First name of the person that should be used to contact the company regarding this product. </TD>
+  </TR>
+
+  <TR>
+    <TD>CONTACT_L_NAME</TD>
+    <TD>Last name of the person that should be used to contact the company regarding this product. </TD>
+  </TR>
+
+  <TR>
+    <TD>CONTACT_PHONE</TD>
+    <TD>Company phone number where general inquiries should be directed.</TD>
+  </TR>
+
+  <TR>
+    <TD>COUNTRY</TD>
+    <TD>Country where the company resides.</TD>
+  </TR>
+
+  <TR>
+    <TD>DESCRIPTION_2000</TD>
+    <TD>2000 character descriptions of the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DESCRIPTION_250</TD>
+    <TD>250 character descriptions of the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DESCRIPTION_45</TD>
+    <TD>45 character descriptions of the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DESCRIPTION_450</TD>
+    <TD>450 character descriptions of the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DESCRIPTION_80</TD>
+    <TD>80 character descriptions of the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DISTRIBUTION_INCLUDES</TD>
+    <TD>Indicates what the program distribution includes for necessary operation (JAVA VM, Drivers, Visual Basic Runtime, etc). </TD>
+  </TR>
+
+  <TR>
+    <TD>DISTRIBUTION_PERMISSIONS</TD>
+    <TD>Distribution permissions given by the author to vendors and other distributors. </TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_TIME_14K</TD>
+    <TD>The amount of time to download the file at 14K.</TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_TIME_28K</TD>
+    <TD>The amount of time to download the file at 28K.</TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_TIME_56K</TD>
+    <TD>The amount of time to download the file at 56K.</TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_TIME_64K</TD>
+    <TD>The amount of time to download the file at 64K.</TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_TIME_128K</TD>
+    <TD>The amount of time to download the file at 128K.</TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_TIME_T1</TD>
+    <TD>The amount of time to download the file with a T1 connection (1.544M or 1544K).</TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_URL_1</TD>
+    <TD>Primary download URL where customers can download the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_URL_2</TD>
+    <TD>Secondary download URL where customers can download the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_URL_3</TD>
+    <TD>Additional download URL where customers can download the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>DOWNLOAD_URL_4</TD>
+    <TD>Additional download URL where customers can download the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>EULA</TD>
+    <TD>Contains the end user license agreement for the program.</TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_BASED_ON</TD>
+    <TD>Specifies the type of expiration. </TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_COUNT</TD>
+    <TD>The number of days or uses until program expires.</TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_DATE</TD>
+    <TD>Date the software product will expire. </TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_DAY</TD>
+    <TD>Day the software product will expire. </TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_MONTH</TD>
+    <TD>Month the software product will expire. </TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_INFO</TD>
+    <TD>Statement sentence relating expiration information. </TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_OTHER_INFO</TD>
+    <TD>Other important information regarding expiration of the program.</TD>
+  </TR>
+
+  <TR>
+    <TD>EXPIRE_YEAR</TD>
+    <TD>Year the software product will expire. </TD>
+  </TR>
+
+  <TR>
+    <TD>FAX_PHONE</TD>
+    <TD>Company phone number where faxes should be directed. </TD>
+  </TR>
+
+  <TR>
+    <TD>FILENAME_GENERIC</TD>
+    <TD>Program name should be the 6.3 generic name, without the version number.</TD>
+  </TR>
+
+  <TR>
+    <TD>FILENAME_LONG</TD>
+    <TD>Preferred long filename that should be used for the program.</TD>
+  </TR>
+
+  <TR>
+    <TD>FILENAME_PREVIOUS</TD>
+    <TD>Program name should be the 8.3 but have the previous version number for the last 2 characters.</TD>
+  </TR>
+
+  <TR>
+    <TD>FILENAME_VERSIONED</TD>
+    <TD>Program name should have an 8.3 name, the last 2 characters of the first portion of the name should be the version number.</TD>
+  </TR>
+
+  <TR>
+    <TD>FILESIZE_BYTES</TD>
+    <TD>The size of the distribution file in Bytes.</TD>
+  </TR>
+
+  <TR>
+    <TD>FILESIZE_KB</TD>
+    <TD>The size of the distribution file in Kilobytes. </TD>
+  </TR>
+
+  <TR>
+    <TD>FILESIZE_MB</TD>
+    <TD>The size of the distribution file in Megaytes. </TD>
+  </TR>
+
+  <TR>
+    <TD>GENERAL_EMAIL</TD>
+    <TD>Company email address where general inquiries should be directed. </TD>
+  </TR>
+
+  <TR>
+    <TD>ICON_FILE_URL</TD>
+    <TD>The URL used to access the icon used for the program.</TD>
+  </TR>
+
+  <TR>
+    <TD>INCLUDES_DIRECTX</TD>
+    <TD>Y/N value indicating directx driver inclusion in distribution.</TD>
+  </TR>
+
+  <TR>
+    <TD>INCLUDES_JAVA</TD>
+    <TD>Y/N value indicating JAVA virtual machine inclusion in distribution.</TD>
+  </TR>
+
+  <TR>
+    <TD>INCLUDES_VB</TD>
+    <TD>Y/N value indicating Visual Basic runtimes inclusion in distribution.</TD>
+  </TR>
+
+  <TR>
+    <TD>INFO_URL</TD>
+    <TD>The URL used to point people to get more information about the program.</TD>
+  </TR>
+
+  <TR>
+    <TD>INSTALL_SUPPORT</TD>
+    <TD>What type of install support does the program have.</TD>
+  </TR>
+
+  <TR>
+    <TD>KEYWORDS</TD>
+    <TD>Keywords to be used to describe the program, should be comma delimited. </TD>
+  </TR>
+
+  <TR>
+    <TD>LANGUAGE</TD>
+    <TD>All languages that apply to the program.</TD>
+  </TR>
+
+  <TR>
+    <TD>ORDER_URL</TD>
+    <TD>The URL used to point people to order the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>ORGANIZATION_MEMBERSHIP</TD>
+    <TD>Organizational memberships held by company.</TD>
+  </TR>
+
+  <TR>
+    <TD>OS_SUPPORT</TD>
+    <TD>All OS types that apply to the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>PERMISSIONS</TD>
+    <TD>Permission <B>file</B> used for program.</TD>
+  </TR>
+
+  <TR>
+    <TD>PROGRAM_EXPIRES</TD>
+    <TD>Y/N value indicating whether the program has expiration information.</TD>
+  </TR>
+
+  <TR>
+    <TD>PROGRAM_NAME</TD>
+    <TD>Contains the full name of the program.</TD>
+  </TR>
+
+  <TR>
+    <TD>PROGRAM_NAME_BOLD</TD>
+    <TD>Contains the full name of the program in upper case characters.</TD>
+  </TR>
+
+  <TR>
+    <TD>PROGRAM_TYPE</TD>
+    <TD>The type of program(Freeware, Shareware, etc...). </TD>
+  </TR>
+
+  <TR>
+    <TD>PROGRAM_VERSION</TD>
+    <TD>The version number of the product, should NOT contain the 'v.' characters.</TD>
+  </TR>
+
+  <TR>
+    <TD>REGISTRATION_COST_OTHER</TD>
+    <TD>Price of product in an alternative currency, currency symbol should be included. </TD>
+  </TR>
+
+  <TR>
+    <TD>REGISTRATION_COST_USD</TD>
+    <TD>The cost of the program in United States Dollars.</TD>
+  </TR>
+
+  <TR>
+    <TD>RELEASE_DATE</TD>
+    <TD>Date the software product was released. </TD>
+  </TR>
+
+  <TR>
+    <TD>RELEASE_DAY</TD>
+    <TD>Day the software product was released. </TD>
+  </TR>
+
+  <TR>
+    <TD>RELEASE_MONTH</TD>
+    <TD>Month the software product was released. </TD>
+  </TR>
+
+  <TR>
+    <TD>RELEASE_STATUS</TD>
+    <TD>The type of release the application is defined as.</TD>
+  </TR>
+
+  <TR>
+    <TD>RELEASE_YEAR</TD>
+    <TD>Year the software product was released. </TD>
+  </TR>
+
+  <TR>
+    <TD>SALES_EMAIL</TD>
+    <TD>Email address where sales inquiries should be directed.</TD>
+  </TR>
+
+  <TR>
+    <TD>SALES_PHONE</TD>
+    <TD>Phone number where sales inquiries should be directed. </TD>
+  </TR>
+
+  <TR>
+    <TD>SCREENSHOT_URL</TD>
+    <TD>The URL used to access a screenshot of the program. </TD>
+  </TR>
+
+  <TR>
+    <TD>SPECIFIC_CATEGORY</TD>
+    <TD>Specific category that best fits the application. </TD>
+  </TR>
+
+  <TR>
+    <TD>STATE_PROVINCE</TD>
+    <TD>The state, province or region where the company resides. </TD>
+  </TR>
+
+  <TR>
+    <TD>SUPPORT_EMAIL</TD>
+    <TD>Email address where technical support inquiries should be directed. </TD>
+  </TR>
+
+  <TR>
+    <TD>SUPPORT_PHONE</TD>
+    <TD>Phone number where technical support inquiries should be directed. </TD>
+  </TR>
+
+  <TR>
+    <TD>SYSTEM_REQUIREMENTS</TD>
+    <TD>Minimum system requirements for the program to function properly. </TD>
+  </TR>
+
+  <TR>
+    <TD>TOC</TD>
+    <TD>A numerical table of contents of blurbs for use in generating the README.TXT file.</TD>
+  </TR>
+
+  <TR>
+    <TD>XML_FILE_URL</TD>
+    <TD>The URL used to access the XML DIZ Info in the future. </TD>
+  </TR>
+
+  <TR>
+    <TD>ZIP_POSTAL</TD>
+    <TD>Zip or Postal code. </TD>
+  </TR>
+
+
+
+
+
+</TABLE>
+
+
+
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,121 @@
+¡,161,iexcl,&#161;,inverted exclamation mark
+¢,162,cent,&#162;,cent sign
+£,163,pound,&#163;,pound sign
+¤,164,curren,&#164;,currency sign
+¥,165,yen,&#165;,yen sign
+¦,166,brvbar,&#166;,broken bar
+§,167,sect,&#167;,section sign
+©,169,copy,&#169;,copyright sign
+(C),169,copy,&#169;,copyright sign
+(c),169,copy,&#169;,copyright sign
+ª,170,ordf,&#170;,feminine ordinal indicator
+«,171,laquo,&#171;,left-pointing double angle quotation mark
+¬,172,not,&#172;,not sign
+®,174,reg,&#174;,registered sign
+(R),174,reg,&#174;,registered sign
+(r),174,reg,&#174;,registered sign
+¯,175,macr,&#175;,macron
+°,176,deg,&#176;,degree sign
+±,177,plusmn,&#177;,plus-or-minus sign
++-,177,plusmn,&#177;,plus-or-minus sign
+-+,177,plusmn,&#177;,plus-or-minus sign
+²,178,sup2,&#178;,superscript two
+³,179,sup3,&#179;,superscript three
+µ,181,micro,&#181;,micro sign
+¶,182,para,&#182;,pilcrow sign
+·,183,middot,&#183;,Greek middle dot
+ * ,183,middot,&#183;,Greek middle dot
+¸,184,cedil,&#184;,cedilla
+¹,185,sup1,&#185;,superscript one
+º,186,ordm,&#186;,masculine ordinal indicator
+»,187,raquo,&#187;,right-pointing double angle quotation mark
+>>,187,raquo,&#187;,right-pointing double angle quotation mark
+¼,188,frac14,&#188;,vulgar fraction one quarter
+" 1/4 ",188,frac14,&#188;,vulgar fraction one quarter
+½,189,frac12,&#189;,vulgar fraction one half
+" 1/2 ",189,frac12,&#189;,vulgar fraction one half
+¾,190,frac34,&#190;,vulgar fraction three quarters
+" 3/4 ",190,frac34,&#190;,vulgar fraction three quarters
+¿,191,iquest,&#191;,inverted question mark
+À,192,Agrave,&#192;,latin capital letter A with grave
+Á,193,Aacute,&#193;,latin capital letter A with acute
+Â,194,Acirc,&#194;,latin capital letter A with circumflex
+Ã,195,Atilde,&#195;,latin capital letter A with tilde
+Ä,196,Auml,&#196;,latin capital letter A with diaeresis
+Å,197,Aring,&#197;,latin capital letter A with ring above
+Æ,198,AElig,&#198;,latin capital letter AE
+Ç,199,Ccedil,&#199;,latin capital letter C with cedilla
+È,200,Egrave,&#200;,latin capital letter E with grave
+É,201,Eacute,&#201;,latin capital letter E with acute
+Ê,202,Ecirc,&#202;,latin capital letter E with circumflex
+Ë,203,Euml,&#203;,latin capital letter E with diaeresis
+Ì,204,Igrave,&#204;,latin capital letter I with grave
+Í,205,Iacute,&#205;,latin capital letter I with acute
+Î,206,Icirc,&#206;,latin capital letter I with circumflex
+Ï,207,Iuml,&#207;,latin capital letter I with diaeresis
+Ð,208,ETH,&#208;,latin capital letter ETH
+Ñ,209,Ntilde,&#209;,latin capital letter N with tilde
+Ò,210,Ograve,&#210;,latin capital letter O with grave
+Ó,211,Oacute,&#211;,latin capital letter O with acute
+Ô,212,Ocirc,&#212;,latin capital letter O with circumflex
+Õ,213,Otilde,&#213;,latin capital letter O with tilde
+Ö,214,Ouml,&#214;,latin capital letter O with diaeresis
+×,215,times,&#215;,multiplication sign
+" x ",215,times,&#215;,multiplication sign
+Ø,216,Oslash,&#216;,latin capital letter O with stroke
+Ù,217,Ugrave,&#217;,latin capital letter U with grave
+Ú,218,Uacute,&#218;,latin capital letter U with acute
+Û,219,Ucirc,&#219;,latin capital letter U with circumflex
+Ü,220,Uuml,&#220;,latin capital letter U with diaeresis
+Ý,221,Yacute,&#221;,latin capital letter Y with acute
+Þ,222,THORN,&#222;,latin capital letter THORN
+ß,223,szlig,&#223;,latin small letter sharp s
+à,224,agrave,&#224;,latin small letter a with grave
+á,225,aacute,&#225;,latin small letter a with acute
+â,226,acirc,&#226;,latin small letter a with circumflex
+ã,227,atilde,&#227;,latin small letter a with tilde
+ä,228,auml,&#228;,latin small letter a with diaeresis
+å,229,aring,&#229;,latin small letter a with ring above
+æ,230,aelig,&#230;,latin small letter ae
+" ae ",230,aelig,&#230;,latin small letter ae
+ç,231,ccedil,&#231;,latin small letter c with cedilla
+è,232,egrave,&#232;,latin small letter e with grave
+é,233,eacute,&#233;,latin small letter e with acute
+ê,234,ecirc,&#234;,latin small letter e with circumflex
+ë,235,euml,&#235;,latin small letter e with diaeresis
+ì,236,igrave,&#236;,latin small letter i with grave
+í,237,iacute,&#237;,latin small letter i with acute
+î,238,icirc,&#238;,latin small letter i with circumflex
+ï,239,iuml,&#239;,latin small letter i with diaeresis
+ð,240,eth,&#240;,latin small letter eth
+ñ,241,ntilde,&#241;,latin small letter n with tilde
+ò,242,ograve,&#242;,latin small letter o with grave
+ó,243,oacute,&#243;,latin small letter o with acute
+ô,244,ocirc,&#244;,latin small letter o with circumflex
+õ,245,otilde,&#245;,latin small letter o with tilde
+ö,246,ouml,&#246;,latin small letter o with diaeresis
+÷,247,divide,&#247;,division sign
+ø,248,oslash,&#248;,latin small letter o with stroke
+ù,249,ugrave,&#249;,latin small letter u with grave
+ú,250,uacute,&#250;,latin small letter u with acute
+û,251,ucirc,&#251;,latin small letter u with circumflex
+ü,252,uuml,&#252;,latin small letter u with diaeresis
+ý,253,yacute,&#253;,latin small letter y with acute
+þ,254,thorn,&#254;,latin small letter thorn with
+Œ,338,OElig,&#140;,latin capital ligature OE
+œ,339,oelig,&#156;,latin small ligature oe ligature is a misnomer this is a separate character in some languages
+Š,352,Scaron,&#138;,latin capital letter S with caron
+š,353,scaron,&#154;,latin small letter s with caron
+Ÿ,376,Yuml,&#159;,latin capital letter Y with diaeresis
+ƒ,402,fnof,&#131;,latin small f with hook
+ˆ,710,circ,&#136;,modifier letter circumflex accent
+†,8224,dagger,&#134;,dagger
+‡,8225,Dagger,&#135;,double dagger
+•,8226,bull,&#149;,black small circle bullet
+…,8230,hellip,&#133;,three dot leader
+‰,8240,permil,&#137;,per mille sign
+™,8482,trade,&#153;,trade mark sign
+(TM),8482,trade,&#153;,trade mark sign
+(tm),8482,trade,&#153;,trade mark sign
+Ø,8709,empty,&#216;,diameter
+·,8901,sdot,&#183;,dot operator

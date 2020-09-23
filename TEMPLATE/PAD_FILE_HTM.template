@@ -1,0 +1,89 @@
+<HTML>
+<HEAD>
+<TITLE>DIZ_INFO:<!--PROGRAM_NAME--> v<!--PROGRAM_VERSION--></TITLE>
+</HEAD>
+
+<BODY>
+<B><FONT SIZE=+1><!--PROGRAM_NAME-->(C) v<!--PROGRAM_VERSION--></FONT><BR>
+<!--DESCRIPTION_45--><BR>
+<!--PROGRAM_TYPE--> ($<!--REGISTRATION_COST_USD-->)<BR>
+<FONT SIZE=-2><I>(<!--OS_SUPPORT-->)</I></FONT><BR>
+
+<FONT FACE="arial">
+<TABLE BGCOLOR="AAAAFF">
+<TR><TD><B>Release:</B></TD><TD><!--RELEASE_STATUS--> (<!--RELEASE_DATE-->)</TD></TR>
+<TR><TD><B>Requires:</B></TD><TD><!--SYSTEM_REQUIREMENTS--></TD></TR>
+<TR><TD><B>Install Support:</B></TD><TD><!--INSTALL_SUPPORT--></TD></TR>
+<TR><TD><B>Distribution Includes:</B></TD><TD><!--DISTRIBUTION_INCLUDES--></TD></TR>
+
+<TR><TD><B>Expires?:</B></TD><TD><!--PROGRAM_EXPIRES--> <!--EXPIRE_COUNT--> <!--EXPIRE_BASED_ON--> <!--EXPIRE_DATE--> <!--EXPIRE_OTHER_INFO--></TD></TR>
+
+
+
+<TR><TD><B>Screenshot:</B></TD><TD><A HREF="<!--SCREENSHOT_URL-->"><!--SCREENSHOT_URL--></A></TD></TR>
+<TR><TD><B>Application Home:</B></TD><TD><A HREF="<!--INFO_URL-->"><!--INFO_URL--></A></TD></TR>
+<TR><TD><B>Icon File:</B></TD><TD><A HREF="<!--ICON_FILE_URL-->"><!--ICON_FILE_URL--></A></TD></TR>
+<TR><TD><B>XML File:</B></TD><TD><A HREF="<!--XML_FILE_URL-->"><!--XML_FILE_URL--></A></TD></TR>
+<TR><TD><B>Order:</B></TD><TD><A HREF="<!--ORDER_URL-->"><!--ORDER_URL--></A></TD></TR>
+
+<TR><TD><B>Categories:</B></TD><TD><!--CATEGORIES--></TD></TR>
+<TR><TD><B>Specific Category:</B></TD><TD><!--SPECIFIC_CATEGORY--></TD></TR>
+<TR><TD><B>Keywords:</B></TD><TD><!--KEYWORDS--></TD></TR>
+
+
+</TABLE>
+
+Download: (<!--FILESIZE_MB-->Mb)<BR>
+<A HREF="<!--DOWNLOAD_URL_1-->"><!--DOWNLOAD_URL_1--></A><BR>
+<A HREF="<!--DOWNLOAD_URL_2-->"><!--DOWNLOAD_URL_2--></A><BR>
+<A HREF="<!--DOWNLOAD_URL_3-->"><!--DOWNLOAD_URL_3--></A><BR>
+<A HREF="<!--DOWNLOAD_URL_4-->"><!--DOWNLOAD_URL_4--></A><BR>
+
+
+
+
+<HR>
+<!--CHANGE_INFO--> <!--DESCRIPTION_80-->
+<HR>
+<!--DESCRIPTION_250-->
+<HR>
+<!--DESCRIPTION_450-->
+<HR>
+<!--DESCRIPTION_2000-->
+<HR>
+</FONT>
+
+<BR><B>Distribution Permissions:</B><BR>
+<!--DISTRIBUTION_PERMISSIONS-->
+<HR>
+
+<BR><B>End User License Agreement(EULA):</B><BR>
+<!--EULA-->
+<HR>
+
+
+<FONT FACE="arial" SIZE=-1>
+Sales: <A HREF="mailto:<!--SALES_EMAIL-->"><!--SALES_EMAIL--></A> <!--SALES_PHONE--><BR>
+Support: <A HREF="mailto:<!--SUPPORT_EMAIL-->"><!--SUPPORT_EMAIL--></A><!--SUPPORT_PHONE--><BR>
+Company: <A HREF="mailto:<!--GENERAL_EMAIL-->"><!--GENERAL_EMAIL--></A><!--CONTACT_PHONE--><BR>
+
+<TABLE BORDER=1><TR><TD>
+Publisher:<BR>
+<CENTER>
+<B><!--COMPANY_NAME--></B> (<A HREF="<!--COMPANY_WEBSITE_URL-->"><!--COMPANY_WEBSITE_URL--></A>)<BR>
+<!--ADDRESS_1--> - <!--ADDRESS_2--><BR>
+<!--CITY_TOWN-->, <!--STATE_PROVINCE--> <!--ZIP_POSTAL--><BR>
+<!--COUNTRY-->
+</CENTER>
+</TD></TR></TABLE>
+
+
+<!--
+
+
+<!--FILENAME_VERSIONED-->
+<!--FILENAME_PREVIOUS-->
+<!--FILENAME_GENERIC-->
+<!--FILENAME_LONG-->
+
+-->
